@@ -89,10 +89,10 @@ li {
 }
 
 .gallery {
-		display: grid;
-		grid-gap: 2rem;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		grid-auto-rows: minmax(26vh, 190px);
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-auto-rows: minmax(26vh, 190px);
 }
 
 .image {
@@ -177,10 +177,10 @@ li {
 	bottom:0;
 	left:0;
 	position:fixed;
-    width: 100%;
-    height: 2em;
-    overflow:hidden;
-    margin:0 auto;
+  width: 100%;
+  height: 2em;
+  overflow:hidden;
+  margin:0 auto;
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -193,7 +193,7 @@ li {
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
-    transition: all 1s ease;
+  transition: all 1s ease;
 	height: 15em;
 }
 .footer #container{
@@ -225,11 +225,13 @@ li {
 	margin-left:40px;
 }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .image:after, .image:before {
-    background-image: none;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+@media (max-width: 600px){
+  /*.gallery {
+  		display: grid;
+  		grid-gap: 2rem;
+  		grid-template-columns: repeat(auto-fill, minmax(100%, 100%));
+  		grid-auto-rows: minmax(26vh, 190px);
+  }*/
 }
 
 .image:hover p, .image:hover:after, .image:hover:before {
