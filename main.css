@@ -161,6 +161,7 @@ li {
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
+
 .footer #button:hover{
 	width:35px;
 	height:35px;
@@ -173,6 +174,20 @@ li {
     transition: all 1s ease;
 	position:relative;
 }
+
+.footer #button:focus{
+	width:35px;
+	height:35px;
+	border: black 12px solid;
+  border-radius: 0,
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+
 .footer {
 	bottom:0;
 	left:0;
@@ -188,6 +203,7 @@ li {
     transition: all 1s ease;
 	z-index:999;
 }
+
 .footer:hover {
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -196,6 +212,16 @@ li {
   transition: all 1s ease;
 	height: 15em;
 }
+
+.footer:focus{
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+  transition: all 1s ease;
+	height: 15em;
+}
+
 .footer #container{
 	margin-top:5px;
 	width:100%;
@@ -205,6 +231,7 @@ li {
   left:0;
 	background: black;
 }
+
 .footer #cont{
   position:relative;
   top:-45px;
@@ -213,25 +240,18 @@ li {
 	height:auto;
 	margin:0 auto;
 }
+
 .footer_center{
 	width:500px;
 	float:left;
   text-align:center;
 }
+
 .footer p {
   color: #FAFAFA;
 	font-size: 15px;
 	margin-top:70px;
 	margin-left:40px;
-}
-
-@media (max-width: 600px){
-  /*.gallery {
-  		display: grid;
-  		grid-gap: 2rem;
-  		grid-template-columns: repeat(auto-fill, minmax(100%, 100%));
-  		grid-auto-rows: minmax(26vh, 190px);
-  }*/
 }
 
 .image:hover p, .image:hover:after, .image:hover:before {
