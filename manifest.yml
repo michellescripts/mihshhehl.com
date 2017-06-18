@@ -1,0 +1,6 @@
+---
+applications:
+- name: site
+  memory: 512M
+  host: mihshhehl
+  buildpack: staticfile_buildpack
