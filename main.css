@@ -14,6 +14,7 @@ p {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .page-space {
@@ -38,7 +39,7 @@ nav {
 
 nav h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 4 0px;
+  font-size: 40px;
 }
 
 
@@ -146,14 +147,13 @@ li {
   filter: blur(90px) saturate(4);
 }
 
-.footer #button{
+/*.footer #button{
 	width:50px;
 	height:20px;
 	border: black 10px solid;
   background-color: black;
   color: white;
   text-align: center;
-	/*margin:0 auto;*/
 	position:relative;
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -230,7 +230,7 @@ li {
 	font-size: 15px;
 	margin-top:70px;
 	margin-left:40px;
-}
+}*/
 
 .image:hover p, .image:hover:after, .image:hover:before {
   opacity: 1;
